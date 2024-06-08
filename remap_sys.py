@@ -60,7 +60,7 @@ def delay_key(key, delay):
 
 
 if __name__ == "__main__":
-    key_system = KeySystem(0.1, 0.9, "c", False)
+    key_system = KeySystem(1, 0.9, "c", False)
     wasd_remap = {
         "w": "up",
         "a": "left",
